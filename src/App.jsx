@@ -1,10 +1,12 @@
 import "./App.css";
 import "./index.css";
+import Header from "./component/Header";
 
 function App() {
   return (
     <div>
-      <p>hellow world sumit kumar</p>
+      <Header />
+      <p className="text-amber-300 bg-amber-950">hellow world sumit kumar</p>
     </div>
   );
 }
